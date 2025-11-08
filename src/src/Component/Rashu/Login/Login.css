@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loginbody {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    position: relative; /* Ensure the content is properly stacked */
+    z-index: 1; /* Ensure that content is above the pseudo-elements */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+
+.loginbody:before,
+.loginbody:after {
+    content: "";
+    position: fixed;
+    z-index: -1; /* Push the pseudo-elements behind the content */
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.loginbody:before {
+    background: linear-gradient(#e91e56, #ffc107);
+    clip-path: circle(25% at 30% 20%);
+    
+}
+
+.loginbody:after
+{
+    
+    background: linear-gradient(#fff, #1970ca);
+    clip-path: circle(25% at 70% 90%);
+}
