@@ -1,0 +1,66 @@
+{
+    "chats": {
+      "1": [
+        {
+          "id": 1,
+          "sender": "Sarah Chen",
+          "text": "I've started working on the API endpoints documentation",
+          "timestamp": "09:30 AM",
+          "type": "received"
+        },
+        {
+          "id": 2,
+          "sender": "John Doe",
+          "text": "Great! Make sure to include authentication examples",
+          "timestamp": "09:35 AM",
+          "type": "sent"
+        },
+        {
+          "id": 3,
+          "sender": "Sarah Chen",
+          "text": "Will do. Should we use Swagger for the interactive documentation?",
+          "timestamp": "09:40 AM",
+          "type": "received"
+        }
+      ],
+      "2": [
+        {
+          "id": 1,
+          "sender": "Mike Johnson",
+          "text": "I've submitted the PR for the new feature",
+          "timestamp": "10:15 AM",
+          "type": "received"
+        },
+        {
+          "id": 2,
+          "sender": "John Doe",
+          "text": "Looking at it now. Initial feedback: we need more test coverage",
+          "timestamp": "10:20 AM",
+          "type": "sent"
+        }
+      ],
+      "3": [
+        {
+          "id": 1,
+          "sender": "Lisa Wong",
+          "text": "Security audit report is ready for review",
+          "timestamp": "11:00 AM",
+          "type": "received"
+        },
+        {
+          "id": 2,
+          "sender": "John Doe",
+          "text": "Any critical findings we should address immediately?",
+          "timestamp": "11:05 AM",
+          "type": "sent"
+        },
+        {
+          "id": 3,
+          "sender": "Lisa Wong",
+          "text": "Yes, found 2 high-priority vulnerabilities. Details in the report.",
+          "timestamp": "11:10 AM",
+          "type": "received"
+        }
+      ]
+    }
+  }
